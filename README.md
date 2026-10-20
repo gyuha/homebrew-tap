@@ -10,6 +10,7 @@
 | [3D Model Lens](https://github.com/gyuha/3d-model-lens) | 작은 모델링 파일용 뷰어 | `brew install --cask gyuha/tap/3d-model-lens` |
 | [booklet](https://github.com/gyuha/booklet) | 가벼운 epub 뷰어 | `brew install --cask gyuha/tap/booklet` |
 | [CaptureMacro](https://github.com/gyuha/capture-macro2) | 화면 캡처와 마우스·키보드 자동화를 결합한 매크로 도구 | `brew install --cask gyuha/tap/capture-macro2` |
+| [KeyTest](https://github.com/gyuha/keyboard-test) | 키 입력을 화면과 소리로 확인하는 키보드 테스트 앱 | `brew install --cask gyuha/tap/keytest` |
 
 앱은 서명·공증되지 않았습니다. 각 Cask가 **해당 앱에 한해** 설치 후 `com.apple.quarantine`을 제거해 Gatekeeper 검사를 우회합니다. 출처를 신뢰하는 경우에만 설치하세요. Intel Mac은 지원하지 않습니다.
 
@@ -72,4 +73,14 @@
 
 1. [공개 릴리스](https://github.com/gyuha/capture-macro2/releases)의 `CaptureMacro-<버전>.dmg`를 내려받아 `shasum -a 256`으로 SHA-256을 구합니다.
 2. `Casks/capture-macro2.rb`의 `version`과 `sha256`을 갱신합니다.
+3. 검증 후 이 저장소에 별도 커밋합니다.
+
+## KeyTest
+
+앱 내 자동 업데이트가 없으므로 `brew upgrade --cask keytest`로 갱신합니다. 조합키를 가로채려면 설치 후 시스템 설정 → 개인정보 보호 및 보안에서 **손쉬운 사용**과 **입력 모니터링**을 허용해야 합니다. 앱을 새 버전으로 바꾸면 이 허용을 다시 해야 할 수 있습니다.
+
+### 새 버전 반영
+
+1. [공개 릴리스](https://github.com/gyuha/keyboard-test/releases)의 `KeyTest.dmg`를 내려받아 `shasum -a 256`으로 SHA-256을 구합니다.
+2. `Casks/keytest.rb`의 `version`과 `sha256`을 갱신합니다.
 3. 검증 후 이 저장소에 별도 커밋합니다.
