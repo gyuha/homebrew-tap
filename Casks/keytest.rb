@@ -1,6 +1,6 @@
 cask "keytest" do
-  version "0.1.0"
-  sha256 "1809012029fb86c8cd37e112ac99734fbd6316d54dae1164d65f2a5adfbba299"
+  version "0.1.1"
+  sha256 "ff6ffa95554750063bf09ee9dc624462db46680f792cf67433ae7b372ddce9fb"
 
   url "https://github.com/gyuha/keyboard-test/releases/download/v#{version}/KeyTest.dmg"
   name "KeyTest"
