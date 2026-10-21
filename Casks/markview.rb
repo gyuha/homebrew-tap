@@ -1,6 +1,6 @@
 cask "markview" do
-  version "0.3.4"
-  sha256 "c9f0b6d5a5b889c30bb09766af8ed24a629e8998ee6d12e1b8246b93f0365a6b"
+  version "0.3.5"
+  sha256 "0a0acc500297e9507c5b69b4e33ace32c729fb39a42e54c056b607151f93522d"
 
   url "https://github.com/gyuha/markview/releases/download/v#{version}/markview_#{version}_aarch64.dmg"
   name "markview"
