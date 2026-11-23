@@ -1,6 +1,6 @@
 cask "twin-deck" do
-  version "0.7.21"
-  sha256 "e8352550ac9f63cbbb978c30c839e9b845b374b00eda8784fcccb28b4310c863"
+  version "0.7.22"
+  sha256 "7988607c37391dadb788ab1ed832a1bc70692397f6ac4a2c37e43a4ab7332709"
 
   url "https://github.com/gyuha/twin-deck/releases/download/v#{version}/twin-deck-#{version}-macos-arm64.zip"
   name "Twin Deck"
